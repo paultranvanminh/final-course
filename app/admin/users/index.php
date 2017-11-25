@@ -3,10 +3,10 @@
 <html>
 <head>
   <title>Danh sach nguoi dung</title>
-   <link rel="stylesheet" type="text/css" href="../../../public/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../public/css/custom.css">
+  <?php include "../lib.php"; ?>
 </head>
 <body>
+<?php include "../admin-menu.php"; ?>
   <div class="container">
   <h2>Danh sach nguoi dung</h2>
   <div class="row">

@@ -6,10 +6,10 @@
 <html>
    <head>
       <title>tao users</title>
-      <link rel="stylesheet" type="text/css" href="../../../public/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="../../../public/css/custom.css">
+      <?php include "../lib.php"; ?>
    </head>
    <body>
+      <?php include "../admin-menu.php"; ?>
       <div class="wrapper">
          <form method="post" action="create.php">
             <div class="row">
